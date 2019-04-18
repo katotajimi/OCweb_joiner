@@ -1,0 +1,114 @@
+/*headerやハンバーガーメニュー調整用*/
+
+body{
+  background-color: rgba(255,130,5,0.1);
+}
+
+
+.title{
+    font-size:35px;
+    font-family: fantasy;
+    height:100px;
+    line-height: 100px;
+    margin:0 auto;
+    vertical-align:middle;
+    text-align: center;
+    color: #FFF;
+}
+
+#logo{
+    max-height:90px;
+    margin: 10px 0px 10px 0px;
+}
+
+header {
+  margin:-10px;
+  background: linear-gradient(180deg,rgba(255, 130, 5,1.0),rgb(255, 186, 68));
+  height:100px;
+  position:fixed;
+  width:100%;
+  z-index: 100;
+}
+
+.content{
+  margin-top: 100px;
+}
+
+.tri{
+  text-align:center;
+}
+
+.menu_kanban{
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: -11px;
+}
+
+#menu{
+  z-index: 20;
+  position: relative
+}
+
+.menu_meddy_div{
+  text-align: center;
+  z-index: 10;
+  position: relative;
+  margin-top: -58px;
+}
+
+.menu_meddy{
+  max-width: 100%;
+}
+
+.space{
+  margin: 0 3% 0 3%
+}
+
+
+#nav-content{
+  background-color: rgba(255,228,196);
+    color:blue;
+    font-size: 25px;
+}
+
+.intro{
+    font-size: 35px;
+    font-family: 'メイリオ';
+    color:#000000;
+    margin-bottom: 5px;
+}
+
+.right_box{
+  margin: 0 auto;
+  max-width: 465px;
+}
+
+.copyright{
+  text-align: left;
+}
+
+.back_top{
+  text-align: center;
+}
+
+.menu_pic{
+  width:90%;
+  margin: 5px 10px -8px 10px;
+}
+
+/*ヘッダー調整*/
+@media only screen and (max-width: 385px){
+  .title{
+    margin-left: 35px;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .title{
+    font-size: 30px;
+  }
+
+  header{
+    height: 80px;
+  }
+}

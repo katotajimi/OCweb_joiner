@@ -1,0 +1,69 @@
+.title{
+    font-size:30px;
+    font-family: 'メイリオ';
+    width:200px;
+    height:100px;
+    line-height: 100px;
+    margin:0 auto;
+    vertical-align:middle;
+    text-align: center;
+    color: #FFF; 
+}
+
+#logo{
+    max-height:90px;
+    margin: 10px 0px 10px 0px;
+}
+
+header {
+  margin:-10px;
+  background: linear-gradient(rgb(255, 130, 5),rgb(255, 165, 5,0.8));
+  height:100px;
+}
+
+.tri{
+  text-align:center;
+}
+/*
+.slide_photo{
+  width:500px;
+  max-width:20%;
+}
+
+.slide{
+  max-width: 500px;
+}
+*/
+.control_slide_pic{
+  width: 800px;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-top: 1px;
+  margin-top: 10px;
+}
+
+
+
+
+#nav-content{
+    background-color:#ffa07a;
+    color:blue;
+    font-size: 25px;
+}
+
+.intro{
+    font-size: 35px;
+    font-family: 'メイリオ';
+    color:#000000;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+  
+
+
+  

@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1200px){
+    .meddy_pic{
+    max-width: 80%;
+    width: 300px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .meddy_explain{
+        width: 75%;
+        float:left; 
+    }
+
+    .meddy_pic{
+        max-width: 20%;
+    }
+
+    .explain02{
+        clear:both;
+    }
+  }
